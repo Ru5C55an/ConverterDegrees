@@ -1,0 +1,6 @@
+framework module Pods_ConverterDegrees {
+  umbrella header "Pods-ConverterDegrees-umbrella.h"
+
+  export *
+  module * { export * }
+}
