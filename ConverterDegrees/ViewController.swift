@@ -9,6 +9,27 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var backgroundImage: UIImageView!
+    
+    override func viewDidLoad() {
+        if traitCollection.userInterfaceStyle == .dark {
+            backgroundImage.image = UIImage(imageLiteralResourceName: "Night")
+        }
+        if traitCollection.userInterfaceStyle == .light {
+            backgroundImage.image = UIImage(imageLiteralResourceName: "After Noon")
+        }
+    }
+    
+    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        if traitCollection.userInterfaceStyle == .dark {
+            backgroundImage.image = UIImage(imageLiteralResourceName: "Night")
+        }
+        if traitCollection.userInterfaceStyle == .light {
+            backgroundImage.image = UIImage(imageLiteralResourceName: "After Noon")
+        }
+    }
+    
+    
     @IBOutlet weak var celsiusLabel: UILabel!
     
     @IBOutlet weak var slider: UISlider! {

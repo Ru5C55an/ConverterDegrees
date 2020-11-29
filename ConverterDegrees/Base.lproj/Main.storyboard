@@ -114,9 +114,6 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="Aly-tO-zbd"/>
-                                <exclude reference="C6T-X0-oVN"/>
-                                <exclude reference="lyc-Z6-OwM"/>
                                 <exclude reference="EbG-NR-Iay"/>
                                 <exclude reference="FhO-AN-ssd"/>
                                 <exclude reference="OV5-1t-RpN"/>
@@ -124,6 +121,9 @@
                                 <exclude reference="kSE-SF-2wY"/>
                                 <exclude reference="udw-jx-qOA"/>
                                 <exclude reference="wBb-Qh-xx8"/>
+                                <exclude reference="Aly-tO-zbd"/>
+                                <exclude reference="C6T-X0-oVN"/>
+                                <exclude reference="lyc-Z6-OwM"/>
                                 <exclude reference="4tb-M3-gHh"/>
                                 <exclude reference="Mvm-3J-Y6C"/>
                                 <exclude reference="Xp6-cV-Iei"/>
@@ -177,11 +177,11 @@
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="constraints">
+                                <include reference="EbG-NR-Iay"/>
+                                <include reference="ZIM-L5-lh5"/>
                                 <include reference="Aly-tO-zbd"/>
                                 <include reference="C6T-X0-oVN"/>
                                 <include reference="lyc-Z6-OwM"/>
-                                <include reference="EbG-NR-Iay"/>
-                                <include reference="ZIM-L5-lh5"/>
                                 <include reference="Mvm-3J-Y6C"/>
                                 <include reference="vb8-Zr-GlK"/>
                                 <include reference="vA6-zX-fTp"/>
@@ -191,11 +191,11 @@
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
                             <mask key="constraints">
+                                <include reference="EbG-NR-Iay"/>
+                                <include reference="ZIM-L5-lh5"/>
                                 <include reference="Aly-tO-zbd"/>
                                 <include reference="C6T-X0-oVN"/>
                                 <include reference="lyc-Z6-OwM"/>
-                                <include reference="EbG-NR-Iay"/>
-                                <include reference="ZIM-L5-lh5"/>
                                 <include reference="Mvm-3J-Y6C"/>
                                 <include reference="vb8-Zr-GlK"/>
                                 <include reference="vA6-zX-fTp"/>
@@ -208,6 +208,7 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="backgroundImage" destination="IVg-Ng-sOg" id="4W4-Rn-bAI"/>
                         <outlet property="celsiusLabel" destination="UQE-f6-sO5" id="sYP-41-P6c"/>
                         <outlet property="farenheitLabel" destination="VgX-Qq-232" id="7M0-8F-zFB"/>
                         <outlet property="slider" destination="YDE-6o-6jn" id="rbZ-6e-cEK"/>
