@@ -49,6 +49,7 @@
 		44CECD00256BEE22001ACBE2 = {
 			isa = PBXGroup;
 			children = (
+				44A459152572EF6500E7F68D /* .gitignore */,
 				44CECD0B256BEE22001ACBE2 /* ConverterDegrees */,
 				44CECD0A256BEE22001ACBE2 /* Products */,
 				5E4E768DE6D1F6CD5C98F523 /* Pods */,
@@ -74,7 +75,6 @@
 				44CECD15256BEE25001ACBE2 /* Assets.xcassets */,
 				44CECD17256BEE25001ACBE2 /* LaunchScreen.storyboard */,
 				44CECD1A256BEE25001ACBE2 /* Info.plist */,
-				44A459152572EF6500E7F68D /* .gitignore */,
 				449CEC6325728173001D54AE /* GoogleService-Info.plist */,
 			);
 			path = ConverterDegrees;
